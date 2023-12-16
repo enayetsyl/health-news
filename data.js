@@ -1,6 +1,7 @@
 export const postsData = [
   {
-    "id": 1,
+    "id": '1',
+    'title':"Exploring the Art of Processed Foods",
     "category": "Process Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "John Doe",
@@ -9,7 +10,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 2,
+    "id": '2',
+    'title':"Decoding Chemical Fertilizers: Impact on Agriculture",
     "category": "Chemical Fertilizer",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Jane Smith",
@@ -18,7 +20,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 3,
+    "id": '3',
+    'title':"The Guide to Safe Food Practices in Your Kitchen",
     "category": "Safe Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Robert Johnson",
@@ -27,7 +30,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 4,
+    "id": '4',
+    'title':"Preservatives Unveiled: Balancing Act for Freshness",
     "category": "Preservative",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Emily Davis",
@@ -36,7 +40,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 5,
+    "id": '5',
+    'title':"Beyond the Norm: Other Food Categories Explored",
     "category": "Other",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Michael Brown",
@@ -44,7 +49,8 @@ export const postsData = [
     "links": ["https://example.com/link9", "https://example.com/link10"],
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },{
-    "id": 6,
+    "id": '6',
+    'title':"Revolutionizing Food Processing: A Comprehensive Overview",
     "category": "Process Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Samantha White",
@@ -53,7 +59,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 7,
+    "id": '7',
+    'title':"The Impact of Chemical Fertilizers on Crop Nutrition",
     "category": "Chemical Fertilizer",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Daniel Miller",
@@ -62,7 +69,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 8,
+    "id": '8',
+    'title':"A Journey to Safe Food Handling and Consumption",
     "category": "Safe Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Amanda Turner",
@@ -71,7 +79,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 9,
+    "id": '9',
+    'title':"Preservative Myths and Facts: What You Need to Know",
     "category": "Preservative",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Christopher Lee",
@@ -80,7 +89,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 10,
+    "id": '10',
+    'title':"Diving Deeper into Other Food Categories",
     "category": "Other",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Olivia Robinson",
@@ -89,7 +99,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 11,
+    "id": '11',
+    'title':"The Science Behind Processed Food Manufacturing",
     "category": "Process Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Ethan Martinez",
@@ -98,7 +109,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 12,
+    "id": '12',
+    'title':"Understanding the Role of Chemical Fertilizers in Farming",
     "category": "Chemical Fertilizer",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Sophie Hall",
@@ -107,7 +119,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 13,
+    "id": '13',
+    'title':"Safe Food Practices for a Healthier Lifestyle",
     "category": "Safe Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Lucas Rodriguez",
@@ -116,7 +129,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 14,
+    "id": '14',
+    'title':"Preserving Nature: The Role of Preservatives in Food",
     "category": "Preservative",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Isabella Baker",
@@ -125,7 +139,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 15,
+    "id": '15',
+    'title':"Exploring Unconventional Food Categories",
     "category": "Other",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Gabriel Foster",
@@ -134,7 +149,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 16,
+    "id": '16',
+    'title':"Innovation in Processed Food: Trends and Insights",
     "category": "Process Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Natalie Reed",
@@ -143,7 +159,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 17,
+    "id": '17',
+    'title':"The Environmental Impact of Chemical Fertilizers",
     "category": "Chemical Fertilizer",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Liam Turner",
@@ -152,7 +169,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 18,
+    "id": '18',
+    'title':"Nurturing Your Health with Safe Food Choices",
     "category": "Safe Food",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Ava Carter",
@@ -161,7 +179,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 19,
+    "id": '19',
+    'title':"Preservative-Free Living: A Healthier Approach",
     "category": "Preservative",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Elijah White",
@@ -170,7 +189,8 @@ export const postsData = [
     "thumbnail": "https://www.cdc.gov/foodsafety/images/flexslider/4-steps-banner-revised.jpg?_=77595"
   },
   {
-    "id": 20,
+    "id": '20',
+    'title':"Unraveling the Mystery of Other Food Alternatives",
     "category": "Other",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (at least 200 words)",
     "author": "Madison Scott",
