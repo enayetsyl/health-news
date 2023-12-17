@@ -127,7 +127,7 @@ export default Navbar;
 - Other jsx and design you can do as usual react. 
 
 
-### Route create
+### Navigation using next link
 
 - Route should be used in navbar inside button or text. e.g. Home, Shop, About etc. In our example we will use it in category tab. 
 
@@ -159,3 +159,20 @@ const CategoriesList = () => {
 
 export default CategoriesList;
 ```
+
+### Configeration for showing image link.
+
+- If any link is use inside an Image tag then you have to adjust in next.config.js file.
+- From the root directory open next.config.js file and adjust as follows:
+
+```javascript
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images:{
+    domains: ["www.cdc.gov"]
+  }
+}
+
+module.exports = nextConfig
+```
+- Inside images object write a property name as domains as above and it will take an array as value. Inside the array put the image website link. You can put multiple website name using , separator. 
