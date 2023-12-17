@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
     <CategoriesList/>
-    <div>
+    <div >
     {
       postsData && postsData.length > 0 ? (postsData.map((post, i) => <Post id={post.id} author={post.author} date={post.datePublished} thumbnail={post.thumbnail} category={post.category} content={post.content} title={post.title} links={post.links}
       key={i}
-      />)) : (<p>No posts to display</p>)
+      />)) : (<p className="py-4 flex justify-center font-bold" >No posts to display</p>)
     }
     </div>
     </>
