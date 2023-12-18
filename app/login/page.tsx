@@ -1,8 +1,15 @@
 'use client'
 import { signIn } from "next-auth/react";
 import Image from "next/image";
+import {getServerSession} from 'next-auth/next';
+import { authOptions } from '../api/auth/[...nextauth]/route';
+import { redirect } from 'next/navigation';
 
-const page = () => {
+const page = async () => {
+  const session = await getServerSession(authOptions)
+  if(session) {
+    redirect('/dashboard')
+  }
   return (
     <div className="flex justify-center items-center flex-col gap-5">
     <h1 className="text-4xl font-bold mb-5">Login</h1>      

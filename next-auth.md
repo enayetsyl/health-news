@@ -387,3 +387,7 @@ import { signIn } from "next-auth/react";
   onClick={() => signIn('github')}
 ```
 - When a user clicks the button, the onClick event handler executes the signIn function with the argument 'google', 'github' initiating the authentication process for signing in with a Google and github account.
+
+
+### Making a route protected / private route
+
