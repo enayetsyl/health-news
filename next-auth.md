@@ -391,3 +391,56 @@ import { signIn } from "next-auth/react";
 
 ### Making a route protected / private route
 
+- In the following example we are making create-post route as private route.
+
+```javascript
+import CreatePostForm from '@/components/CreatePostForm';
+import React from 'react';
+import {getServerSession} from 'next-auth/next';
+import { authOptions } from '../api/auth/[...nextauth]/route';
+import { redirect } from 'next/navigation';
+
+const CreatePost =  async () => {
+  const session = await getServerSession(authOptions)
+
+  if(!session){
+    redirect('/login')
+  }
+  return (
+    <div>
+      
+      <CreatePostForm/>
+    </div>
+  );
+};
+
+export default CreatePost;
+```
+```javascript
+import {getServerSession} from 'next-auth/next';
+import { authOptions } from '../api/auth/[...nextauth]/route';
+import { redirect } from 'next/navigation';
+```
+- getServerSession: This function is  used to retrieve the user session on the server side. It is part of the NextAuth library.
+
+- authOptions: This variable  holds the configuration options for  authentication setup. It is imported from the specified path '../api/auth/[...nextauth]/route'.
+
+- redirect: This function is used to redirect the user to a different page or URL. It is imported from 'next/navigation'.
+
+```javascript
+  const session = await getServerSession(authOptions)
+```
+
+- In the  code, the getServerSession function from NextAuth to retrieve the user session on the server side. The function takes the authOptions object as a parameter, which contains configuration options for authentication. The await keyword is used to wait for the asynchronous operation to complete, and the result is stored in the session variable. This variable holds information about the authenticated user.
+
+
+```javascript
+ if(!session){
+    redirect('/login')
+  }
+```
+
+- In the code, there's a conditional check using if (!session). If the session is not present or evaluates to false, it means that there is no authenticated user session. In such a case, the user  redirected to the  '/login' page.
+
+- USING THE ABOVE PROCESS YOU CAN MAKE ANY PAGE PRIVATE ROUTE.
+
